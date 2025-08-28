@@ -1,0 +1,18 @@
+.pokemon-card{
+    background: white;
+    border-radius: 10px;
+    color: black;
+}
+.pokemon-card:hover{
+    transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 8px 24px 8px rgba(0, 0, 0, 0.912);
+}
+.bottom-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.captured-label{
+    color: rgb(17, 140, 201); 
+    font-weight: bolder
+}
